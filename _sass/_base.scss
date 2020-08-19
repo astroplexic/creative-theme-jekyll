@@ -248,7 +248,7 @@ header {
 }
  }  @media (min-width: 600px) { 
         min-height:100%;
-        .header-content h1 h2 {
+        .header-content {
             position:absolute;
             top:50%;
             -webkit-transform:translateY(-50%);
