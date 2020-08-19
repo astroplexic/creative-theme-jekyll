@@ -228,6 +228,14 @@ header {
             font-weight:500;
             font-family:'Times New Roman', Times, serif;
             color: #fff;
+     }
+        h2 {
+            font-weight:392;
+            font-size:19px;
+            line-height: 0.1px;
+            color:#c4c4c4;
+            margin-bottom:0px;
+            font-family:'Verdana', Geneva, Tahoma, sans-serif;
     }
         hr{
             margin:30px auto;
@@ -250,15 +258,15 @@ header {
                 font-weight:500;
                 font-family:'Times New Roman', Times, serif;
                 color: #fff;
-            }
+                margin-bottom: 0;
+         }
             h2 {
                 font-weight:392;
-                font-size:19px;
+                //font-size:19px;
                 line-height: 0.1px;
-                color:#8a8a8a;
+                color:#c4c4c4;
                 margin-bottom:0px;
-            }
-                        
+        }    
             p {
                 max-width:100%;
                 margin-left:auto;
