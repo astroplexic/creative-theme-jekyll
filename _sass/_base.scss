@@ -224,6 +224,11 @@ header {
   margin-bottom:0px;
 } 
     .header-content-inner {
+        h1 {
+            font-weight:500;
+            font-family:'Times New Roman', Times, serif;
+            color: #fff;
+    }
         hr{
             margin:30px auto;
     }
