@@ -222,8 +222,14 @@ header {
             font-family: 'Times New Roman', Times, serif;
             color: #fff;
             margin-bottom:0px;
+            max-width:auto;
+            margin-left:auto;
+            margin-right:auto;
     } 
         .header-content-inner { //mobile
+                max-width:auto;
+                margin-left:auto;
+                margin-right:auto;
             h1 {
                 font-weight: 500;
                 font-family: 'Times New Roman', Times, serif;
@@ -237,7 +243,7 @@ header {
                 font-size: 13px;
                 font-style: oblique;
         }
-            hr{
+            hr {
                 margin:30px auto;
         }
 }
