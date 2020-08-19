@@ -202,44 +202,44 @@ aside {
 // Homepage Header
 
 header {
- position:relative;
- width:auto;
- min-height:auto;
- @include background-cover;
- background-position:center;
-//background-image: url('../img/header5.jpg');
- text-align:left;
- background-attachment:fixed;
- background-color:#222;
- .header-content {
- position:relative;
- text-align:left;
- padding:40px 90px 90px 40px;
- margin:0px;
- width:100%;
- .header-content-inner {
-  font-weight:500;
-  font-family:'Times New Roman', Times, serif;
-  color: #fff;
-  margin-bottom:0px;
-} 
-    .header-content-inner {
-        h1 {
+    position:relative;
+    width:auto;
+    min-height:auto;
+    @include background-cover;
+    background-position:center;
+    //background-image: url('../img/header5.jpg');
+    text-align:left;
+    background-attachment:fixed;
+    background-color:#222;
+        .header-content {
+            position:relative;
+            text-align:left;
+            padding:40px 90px 90px 40px;
+            margin:0px;
+            width:100%;
+         .header-content-inner {
             font-weight:500;
             font-family:'Times New Roman', Times, serif;
             color: #fff;
-     }
-        h2 {
-            font-weight:392;
-            font-size:19px;
-            line-height: 0.1px;
-            color:#c4c4c4;
             margin-bottom:0px;
-            font-family:'Verdana', Geneva, Tahoma, sans-serif;
-    }
-        hr{
-            margin:30px auto;
-    }
+    } 
+        .header-content-inner {
+            h1 {
+                font-weight: 500;
+                font-family: 'Times New Roman', Times, serif;
+                color: #fff;
+        }
+            h2 {
+                font-weight:392;
+                //font-size:19px;
+                //line-height: ;
+                color:#c4c4c4;
+                margin-bottom:0px;
+                font-family:'Verdana', Geneva, Tahoma, sans-serif;
+        }
+            hr{
+                margin:30px auto;
+        }
 }
  }  @media (min-width: 600px) { 
         min-height:100%;
@@ -255,17 +255,18 @@ header {
                 margin-left:auto;
                 margin-right:auto;
             h1 {
-                font-weight:500;
-                font-family:'Times New Roman', Times, serif;
+                font-weight: 500;
+                font-family: 'Times New Roman', Times, serif;
                 color: #fff;
                 margin-bottom: 0;
          }
             h2 {
                 font-weight:392;
-                //font-size:19px;
-                line-height: 0.1px;
+                font-size: 22px;
+                //line-height: 0.1px;
                 color:#c4c4c4;
-                margin-bottom:0px;
+                margin-bottom: 0px;
+                font-family: 'Verdana', Geneva, Tahoma, sans-serif;
         }    
             p {
                 max-width:100%;
