@@ -223,7 +223,7 @@ header {
             color: #fff;
             margin-bottom:0px;
     } 
-        .header-content-inner {
+        .header-content-inner { //mobile
             h1 {
                 font-weight: 500;
                 font-family: 'Times New Roman', Times, serif;
@@ -232,10 +232,10 @@ header {
             h2 {
                 font-weight:392;
                 //font-size:19px;
-                //line-height: ;
-                color:#bb1717;
-                //margin-bottom:0px;
+                color:#eeeeee;
                 font-family: 'Geneva', Tahoma, sans-serif;
+                font-size: 13px;
+                font-style: oblique;
         }
             hr{
                 margin:30px auto;
@@ -262,11 +262,12 @@ header {
          }
             h2 {
                 font-weight:392;
-                font-size: 22px;
+                font-size: inherit; //large screen
                 //line-height: 0.1px;
                 color:#eeeeee;
                 //margin-bottom: 0px;
                 font-family: 'Geneva', Tahoma, sans-serif;
+                font-style: oblique;
         }    
             p {
                 max-width:100%;
