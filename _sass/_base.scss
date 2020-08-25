@@ -447,7 +447,6 @@ h2.section-heading
 .btn {
     @include sans-serif-font;
     border: none;
-    //border-radius: 300px;
     font-weight: 400;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -456,10 +455,10 @@ h2.section-heading
 .btn-sm, {
     padding: 15px 30px;
     font-weight: 400;
-    background-color: #222;
+    background-color: #fff;
      font-family: sans-serif;
-    color: white;
-    border: 10px #fff;
+    color: #222;
+    border-radius: 10px #222;
 
 }
 
