@@ -27,14 +27,14 @@
 	&.active,
 	.open > .dropdown-toggle & {
 		color: $color;
-		background-color: $theme-dark;
+		background-color: $theme-main-link;
     // border-color: darken($border);
 	}
 	&:active,
 	&.active,
 	.open > .dropdown-toggle & {
 		background-image: none;
-		color: $theme-dark; // change transparent big nav bar
+		color: $theme-main-link; // change transparent big nav bar
 	}
 	&.disabled,
 	&[disabled],
