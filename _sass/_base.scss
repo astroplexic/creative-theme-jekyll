@@ -457,9 +457,17 @@ h2.section-heading
     text-transform: uppercase;
 }
 
-.btn-sm, .btn-hover {
+.btn-sm, {
     padding: 15px 30px;
-    font-family: inherit;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.bt-sm:hover {
+    background-color: $theme-main-link
+    border-radius: 8px;;
 }
 
 // Contact
