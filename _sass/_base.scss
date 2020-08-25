@@ -414,11 +414,6 @@ h2.section-heading
     }
 }
 
-.call-to-action {
-    h2 {
-        margin: 0 auto 20px;
-    }
-}
 
 // Bootstrap Overrides
 
@@ -429,7 +424,7 @@ h2.section-heading
     color: #f1f1f1;
     font-weight: 410;
     line-height: 150%;
-   // letter-spacing: 1.1px;
+    letter-spacing: .9px;
     //text-indent: 18%;
 
 }
@@ -452,7 +447,7 @@ h2.section-heading
 .btn {
     @include sans-serif-font;
     border: none;
-    border-radius: 300px;
+    //border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -460,13 +455,14 @@ h2.section-heading
 .btn-sm, {
     padding: 15px 30px;
     font-weight: 700;
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
+    background-color: #222;
+    color: white;
+
 }
 
 .bt-sm:hover {
     background-color: $theme-main-link;
+    font-weight: 700;
     border-radius: 8px;
 }
 
