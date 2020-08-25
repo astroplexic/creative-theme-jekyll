@@ -16,3 +16,25 @@
     transition: box-shadow 0.3s ease, opacity 0.3s ease;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
+
+// Scrollbar
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1d1d1d;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00dfae;
+  }
