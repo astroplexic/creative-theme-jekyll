@@ -340,6 +340,20 @@ h2.section-heading
     }
 }
 
+// column
+.col, [class*="col-"] {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+//max container widths
+
+.container {
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+}
+
 .portfolio-box {
     position: relative;
     display: block;
