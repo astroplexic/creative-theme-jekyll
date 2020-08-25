@@ -342,8 +342,8 @@ h2.section-heading
 
 // column
 .col, [class*="col-"] {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
 
@@ -457,13 +457,18 @@ h2.section-heading
     font-weight: 700;
     background-color: #222;
     color: white;
+    border: 2px;
+    border-color: #fff;
 
 }
 
 .bt-sm:hover {
     background-color: $theme-main-link;
     font-weight: 700;
+    font-family: sans-serif;
+    color: #fff;
     border-radius: 8px;
+
 }
 
 // Contact
