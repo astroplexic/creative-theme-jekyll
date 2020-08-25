@@ -455,15 +455,15 @@ h2.section-heading
 .btn-sm, {
     padding: 15px 30px;
     font-weight: 400;
-    background-color: #3c3c3c;
-     font-family: sans-serif;
+    background-color: $theme-main-link;
+    font-family: sans-serif;
     color: #fff;
     border-radius: 10px;
 
 }
 
 .btn:hover {
-    background-color: $theme-main-link;
+    background-color: ##3c3c3c;
     font-weight: 400;
     font-family: sans-serif;
     color: #fff;
