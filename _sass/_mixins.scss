@@ -34,7 +34,7 @@
 	&.active,
 	.open > .dropdown-toggle & {
 		background-image: none;
-		color: $theme-main-link; // change transparent big nav bar
+		color: $theme-main-link;
 	}
 	&.disabled,
 	&[disabled],
@@ -45,7 +45,7 @@
 		&.focus,
 		&:active,
 		&.active {
-			background-color: $theme-main-link; //change
+			background-color: $theme-main-link;
 			border-color: $border;
 		}
 	}
