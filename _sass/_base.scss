@@ -329,17 +329,6 @@ h2.section-heading
     letter-spacing: -0.5px;
 }
 
-.service-box {
-    max-width: 500px;
-    margin: 30px auto 0;
-    @media (min-width: auto) {
-        margin: 15px 10px 0;
-    }
-    p {
-        margin-bottom: 0;
-    }
-}
-
 // column
 .col, [class*="col-"] {
     padding-right: 69px;
@@ -396,7 +385,7 @@ h2.section-heading
             //filter: blur(1.0rem);
         }
     }
-    @media (min-width: 800px) {
+    @media (min-width: 400px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
