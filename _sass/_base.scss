@@ -342,8 +342,8 @@ h2.section-heading
 
 // column
 .col, [class*="col-"] {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 69px;
+    padding-left: 69px;
   }
 
 
@@ -424,7 +424,7 @@ h2.section-heading
     color: #f1f1f1;
     font-weight: 410;
     line-height: 150%;
-    letter-spacing: .9px;
+    letter-spacing: 1.5px;
     //text-indent: 18%;
 
 }
@@ -448,13 +448,13 @@ h2.section-heading
     @include sans-serif-font;
     border: none;
     //border-radius: 300px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
 .btn-sm, {
     padding: 15px 30px;
-    font-weight: 700;
+    font-weight: 400;
     background-color: #222;
     color: white;
     border: 2px;
@@ -462,12 +462,12 @@ h2.section-heading
 
 }
 
-.bt-sm:hover {
+.btn:hover {
     background-color: $theme-main-link;
-    font-weight: 700;
+    font-weight: 400;
     font-family: sans-serif;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
 
 }
 
