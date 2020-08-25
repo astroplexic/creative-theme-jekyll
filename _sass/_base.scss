@@ -457,8 +457,9 @@ h2.section-heading
     text-transform: uppercase;
 }
 
-.btn-xl {
+.btn-sm, .btn-hover {
     padding: 15px 30px;
+    font-family: inherit;
 }
 
 // Contact

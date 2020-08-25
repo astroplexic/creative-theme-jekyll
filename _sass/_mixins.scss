@@ -45,7 +45,7 @@
 		&.focus,
 		&:active,
 		&.active {
-			background-color: transparent; //change
+			background-color: $theme-main-link; //change
 			border-color: $border;
 		}
 	}
