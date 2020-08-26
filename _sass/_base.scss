@@ -353,6 +353,7 @@ h2.section-heading
     max-height: 1150px;
     background-color: #222;
     object-fit: contain;
+    font-family: sans-serif;
     color: #fff;
     .portfolio-box-caption {
         color: $theme-main-link; //projectname color
@@ -360,6 +361,8 @@ h2.section-heading
         display: block;
         background: #141414; //port overlay
         position: absolute;
+        font-family: sans-serif;
+        color: #00dfae;
         bottom: 0;
         text-align: center;
         width: 100%;
@@ -389,7 +392,7 @@ h2.section-heading
                 font-weight: 520;
                 letter-spacing: -0.6px;
                 color: #fff;
-                padding: 0 15px;
+                padding: 10px 15px;
                 text-align: center;
             }
         }
