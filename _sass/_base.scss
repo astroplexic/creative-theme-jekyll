@@ -73,7 +73,7 @@ p {
 }
 
 .text-faded {
-    color: #fff; //portfolio category
+    color: #fff; //portfolio description
 }
 
 .synopsis {
@@ -234,7 +234,7 @@ header {
                 margin:30px auto;
         }
 }
- }  @media (min-width: 600px) { 
+ }  @media (min-width: 500px) { 
         min-height:100%;
         .header-content {
             position:absolute;
@@ -272,7 +272,7 @@ header {
 
 .img-responsive, {
     border-radius: 0px;
-    padding: 0px;
+    padding: 3px;
     object-fit: contain;
     width: 100%;
     height: 100%;
@@ -280,13 +280,11 @@ header {
 
 .thumbnail > img,
 .thumbnail a > img,
-
 .carousel-inner > .item > img,
 
 .img-gen > .item > a > img {
      border-radius: 0px;
-     padding: 0px;
-     object-fit: contain;
+     padding: 5px;
 }
 
 .img-block {
@@ -348,8 +346,8 @@ h2.section-heading
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 2100px;
-    max-height: 2100px;
+    max-width: 2000px;
+    max-height: 2000px;
     background-color: #222;
     object-fit: contain;
     //background-size: cover;
@@ -369,20 +367,21 @@ h2.section-heading
             height: auto;
             text-align: center;
             position: absolute;
+            padding: 150px;
             top: 50%;
             transform: translateY(-50%);
-            .project-category,
+            .project-description,
             .project-name {
                 @include sans-serif-font;
                 padding: 0 15px;
             }
-            .project-category {
+            .project-description {
                 text-transform: none;
-                font-weight: 480;
-                font-size: 14px;
+                font-weight: 360;
+                font-size: 12px;
             }
             .project-name {
-                font-size: 20px;
+                font-size: 22px;
                 font-weight: 520;
                 letter-spacing: -0.6px;
             }
@@ -394,12 +393,12 @@ h2.section-heading
             //filter: blur(1.0rem);
         }
     }
-    @media (min-width: 750px) {
+    @media (min-width: 650px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
-                .project-category {
-                    font-size: 14px;
-                    font-weight: 330;
+                .project-description {
+                    font-size: 12px;
+                    font-weight: 360;
                     color: #fff;
                 }
                 .project-name {
