@@ -91,6 +91,7 @@ aside {
 
 .no-padding {
     padding: 0;
+    background-color: #222;
 }
 
 // Mobile navigation and logo
@@ -352,6 +353,7 @@ h2.section-heading
     max-height: 2000px;
     background-color: #222;
     object-fit: contain;
+    color: #fff;
     //background-size: cover;
     .portfolio-box-caption {
         color: $theme-main-link; //projectname color
