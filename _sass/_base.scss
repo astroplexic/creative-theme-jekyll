@@ -277,7 +277,7 @@ header {
 
 .img-gen > .item > a > img {
      border-radius: 0px;
-     padding: 3px;
+     padding: 0px;
 }
 
 .img-block {
@@ -356,8 +356,8 @@ h2.section-heading
         height: 100%;
         @include transition-all;
         .portfolio-box-caption-content {
-            width: 100%;
-            height: auto;
+            width: 50%;
+            height: 50%;
             text-align: center;
             position: absolute;
             top: 50%;
@@ -385,7 +385,7 @@ h2.section-heading
             //filter: blur(1.0rem);
         }
     }
-    @media (min-width: 900px) {
+    @media (min-width: 750px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
