@@ -273,7 +273,12 @@ header {
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
-.carousel-inner > .item > img,
+
+.carousel-inner > .item > img, {
+    border-radius: 0px;
+    padding: 0px;
+    object-fit: contain;
+}
 
 .img-gen > .item > a > img {
      border-radius: 0px;
