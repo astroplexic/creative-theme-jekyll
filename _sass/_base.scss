@@ -278,6 +278,7 @@ header {
 .img-gen > .item > a > img {
      border-radius: 0px;
      padding: 0px;
+     object-fit: contain;
 }
 
 .img-block {
@@ -346,9 +347,9 @@ h2.section-heading
     //background-size: cover;
     .portfolio-box-caption {
         color: $theme-main-link; //projectname color
-        opacity: 0; //text on top
+        opacity: 1; //text on top
         display: block;
-        background: #141414; //port overlay
+        background: #cc0000; //port overlay
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -356,8 +357,8 @@ h2.section-heading
         height: 100%;
         @include transition-all;
         .portfolio-box-caption-content {
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            height: 100%;
             text-align: center;
             position: absolute;
             top: 50%;
