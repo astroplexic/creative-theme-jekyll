@@ -427,9 +427,11 @@ h2.section-heading
         font-weight: 480;
         letter-spacing: 1.5px;
         color: #00dfae;
-        padding: 15x  10px;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: ;
         text-align: left;
-        text-transform: uppercase;
+        text-transform: none;
 }
     .project-description {
         font-family: sans-serif;
