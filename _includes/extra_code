@@ -38,3 +38,20 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #00dfae;
   }
+
+      @media (min-width: 800px) {
+        .portfolio-box-caption {
+            .portfolio-box-caption-content {
+                .project-description {
+                    font-size: 12px;
+                    font-weight: 360;
+                    color: #fff;
+                }
+                .project-name {
+                    font-size: 22px;
+                    font-weight: 400;
+                    letter-spacing: -0.6px;
+                }
+            }
+        }
+    }
