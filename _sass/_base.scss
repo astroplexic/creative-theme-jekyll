@@ -271,14 +271,14 @@ header {
 
   // images
 
-    @media (min-width: 800px) { 
+    @media (min-width: 600px) { 
         .img-responsive {
             border-radius: 0px;
             padding: 5px;
             object-fit: contain;
             //width: 100%;
             height: auto;
-            align: center;
+            position: center;
     }
 }
 
@@ -428,18 +428,18 @@ h2.section-heading
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 480;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.1px;
         color: #00dfae;
-        padding-left: 10px;
-        padding-top: 15px;
-        padding-bottom: 0;
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 0px;
         text-align: center;
         text-transform: none;
 }
     .project-description {
         font-family: sans-serif;
         text-transform: none;
-        font-weight: 340;
+        font-weight: 300;
         font-size: 14px;
         color: #fff;
         text-align: center;
