@@ -425,10 +425,11 @@ h2.section-heading
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 480;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.fpx;
         color: #00dfae;
-        padding: 15px 0 15px;
-        text-align: center;
+        padding: 15x  10px;
+        text-align: left;
+        text-transform: uppercase;
 }
     .project-description {
         font-family: sans-serif;
@@ -438,8 +439,8 @@ h2.section-heading
         color: #fff;
         text-align: left;
         //max-width: 20px;
-        padding: 10px 10px;
-        letter-spacing: 1px;;
+        padding: 5px 5px;
+        letter-spacing: 1.2px;;
 }
 
 
