@@ -274,9 +274,9 @@ header {
     @media (min-width: 600px) { 
         .img-responsive {
             border-radius: 0px;
-            padding: 5px;
+            padding: 0px;
             object-fit: contain;
-            //width: 100%;
+            width: 100%;
             height: auto;
             position: center;
     }
@@ -440,8 +440,8 @@ h2.section-heading
                 text-align: center;
                 width: 100%;
                 position: center;
-                padding-left: 35px;
-                padding-right: 35px;
+                padding-left: 45px;
+                padding-right: 45px;
                 padding-bottom: 15px;
                 padding-top: 5px;
                 letter-spacing: 1.1px;
@@ -454,7 +454,7 @@ h2.section-heading
                 color: #00dfae;
                 padding-left: 15px;
                 padding-right: 15px;
-                padding-top: 10px;
+                padding-top: 15px;
                 padding-bottom: 15px;
                 text-align: center;
                 text-transform: none;
