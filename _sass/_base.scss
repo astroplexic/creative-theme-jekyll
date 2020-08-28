@@ -276,7 +276,7 @@ header {
             border-radius: 0px;
             padding: 0px;
             object-fit: contain;
-            max-width: 80%;
+            max-width: 100%;
             height: auto;
             position: center;
             align-content: center;
@@ -446,7 +446,7 @@ h2.section-heading
                 padding-bottom: 15px;
                 padding-top: 5px;
                 letter-spacing: 1.1px;
-                display: block;
+
             }
             .project-name { //main
                 font-family: sans-serif;
