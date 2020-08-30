@@ -20,6 +20,12 @@ hr.accent {
     border-width: 3px;
 }
 
+hr.light{
+    border-color: #fff;
+    max-width:250px;
+    border-width: 3px;
+}
+
 a {
     @include transition-all;
     color: $theme-main-link;
