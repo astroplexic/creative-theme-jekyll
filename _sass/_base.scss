@@ -310,8 +310,7 @@ header {
 
 .img-l {
      display: inline-block;
-     float: left;
-     align: left;
+     text-align: left;
      max-width: 60%;
      height: auto;
      border-radius: 20px;
@@ -320,7 +319,6 @@ header {
 
 .img-r {
      display: inline-block;
-     float: right;
      max-width: 60%;
      height: auto;
      border-radius: 20px;
@@ -507,14 +505,13 @@ h2.section-heading
     text-transform: uppercase;
 }
 
-.btn-sm, {
+.btn-sm {
     padding: 15px 30px;
     font-weight: 500;
     background-color: $theme-main-link;
     font-family: sans-serif;
     color: #222;
     border-radius: 10px;
-
 }
 
 .btn:hover {
