@@ -1110,7 +1110,15 @@ img {
 }
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img,
-.img-responsive,
+.img-responsive {
+    border-radius: 0px;
+    padding: 0px;
+    object-fit: contain;
+    max-width: 500px;
+    height: auto;
+    position: center;
+    align-content: center;
+ }
 .thumbnail a > img,
 .thumbnail > img {
   display: block;

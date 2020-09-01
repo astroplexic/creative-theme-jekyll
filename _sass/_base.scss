@@ -277,16 +277,8 @@ header {
 
   // images
 
-    @media (min-width: 600px) { 
-        .img-responsive {
-            border-radius: 0px;
-            padding: 0px;
-            object-fit: contain;
-            max-width: 100%;
-            height: auto;
-            position: center;
-            align-content: center;
-    }
+ 
+        .img-responsive
 }
 
 .thumbnail > img,
