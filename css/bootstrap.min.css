@@ -1110,15 +1110,6 @@ img {
 }
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img,
-.img-responsive {
-    border-radius: 0px;
-    padding: 0px;
-    object-fit: contain;
-    max-width: 500px;
-    height: auto;
-    position: center;
-    align-content: center;
- }
 .thumbnail a > img,
 .thumbnail > img {
   display: block;
@@ -1579,16 +1570,37 @@ pre code {
   .container {
     width: 750px;
   }
+  .img-responsive {
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 90%;
+    height: auto;
+    position: center;
+ }
 }
 @media (min-width: 992px) {
   .container {
     width: 980px;
   }
+   .img-responsive {
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 80%;
+    height: auto;
+    position: center;
+ }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1182px;
   }
+    .img-responsive {
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 70%;
+    height: auto;
+    position: center;
+ }
 }
 .container-fluid {
   padding-right: 15px;
