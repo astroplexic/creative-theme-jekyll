@@ -1566,6 +1566,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.img-responsive {
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 100%;
+    height: auto;
+    position: center;
+ }
 @media (min-width: 768px) {
   .container {
     width: 750px;
