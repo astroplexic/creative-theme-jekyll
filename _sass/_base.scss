@@ -103,13 +103,13 @@ aside {
 // Mobile navigation and logo
 
 .navbar-default {
-    background-color: #222;
-    opacity: 1;
+    background-color: $theme-light-bg;
+    opacity: 0.98;
     border-color: transparent;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: #fff;
+        color: #222222;
         @include sans-serif-font;
         font-weight: 250;
         text-transform: uppercase;
@@ -129,7 +129,7 @@ aside {
                 text-align: left;
                 font-weight: 500;
                 font-size: 18px;
-                color: #fff;
+                color: $theme-main-link;
                // padding-right: 5px;
                 &:hover {
                     color: $theme-link;
@@ -164,17 +164,17 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: #fff; //main nav color
+            color: $theme-dark; //main nav color
             &:hover {
                 color: $theme-link;
             }
         }
         &.affix {
-            background-color: $theme-dark;
+            background-color: $theme-light-bg;
             opacity: 1; //scrolling fixed nav bar desktop transparency
             border-color: transparent;
             .navbar-header .navbar-brand {
-                color: #f3f3f3;
+                color: $theme-main-link;
                 font-size: 40px; //logo scroll down
                 opacity: 1;
                 font-weight: 180;
@@ -185,7 +185,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: #fff; //default nav link color
+                color: $theme-main-link; //default nav link color
                 &:hover {
                     color: $theme-link;
                 }
