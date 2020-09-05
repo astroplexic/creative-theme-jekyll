@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color:#fff;
+    border-color:$theme-main-link
     border-width: 3px;
     max-width: 250px;
 
@@ -97,7 +97,7 @@ aside {
 
 .no-padding {
     padding: 0;
-    background-color: #222;
+    background-color: $theme-light-bg;
 }
 
 // Mobile navigation and logo
@@ -105,7 +105,7 @@ aside {
 .navbar-default {
     background-color: $theme-light-bg;
     opacity: 0.98;
-    border-color: transparent;
+    border-color: $theme-body-text-dark;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -164,7 +164,7 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: $theme-dark; //main nav color
+            color: $theme-main-link; //main nav color
             &:hover {
                 color: $theme-link;
             }
@@ -172,7 +172,7 @@ aside {
         &.affix {
             background-color: $theme-light-bg;
             opacity: 1; //scrolling fixed nav bar desktop transparency
-            border-color: transparent;
+            border-color: $theme-main-link;
             .navbar-header .navbar-brand {
                 color: $theme-main-link;
                 font-size: 40px; //logo scroll down
@@ -316,7 +316,7 @@ header {
 // Sections
 
 .section-heading {
-    font-family: 'Times New Roman', Times, Serif;
+    font-family: sans-serif;
     color: $theme-body-text-dark;
     margin-top: 0px;
     margin-bottom: -4px;
@@ -326,7 +326,7 @@ header {
 }
 h2.section-heading
 {
-    font-family: 'Times New Roman', Times, Serif;
+    font-family: sans-serif;
     color: $theme-body-text-dark;
     margin-top: 0px;
     margin-bottom: -4px;
@@ -447,7 +447,7 @@ h2.section-heading
                 font-size: 30px;
                 font-weight: 480;
                 letter-spacing: -0.6px;
-                color: #00dfae;
+                color: $theme-main-link;
                 padding-left: 15px;
                 padding-right: 15px;
                 padding-top: 15px;
