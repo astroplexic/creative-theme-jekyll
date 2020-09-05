@@ -70,7 +70,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #222; // body
+    background-color: $theme-light-bg; // body
 }
 
 .bg-dark {
@@ -232,7 +232,7 @@ header {
         }
             h2 {
                 font-weight: 300;
-                color:#eeeeee;
+                color: $theme-body-text-dark;
                 font-family: 'Geneva', Tahoma, sans-serif;
                 font-size: 13px;
                 font-style: oblique;
@@ -429,7 +429,7 @@ h2.section-heading
                 text-transform: none;
                 font-weight: 300;
                 font-size: 14px;
-                color: #fff;
+                color: $theme-body-text-dark;
                 text-align: center;
                 width: 100%;
                 position: center;
@@ -458,10 +458,10 @@ h2.section-heading
 // Bootstrap Overrides
 
 .text-primary {
-    color: $theme-body-text-light;
+    color: $theme-body-text-dark;
     font-size: 15px;
     @include sans-serif-font;
-    color: #f1f1f1;
+    color: $theme-body-text-dark;
     font-weight: 410;
     line-height: 150%;
     letter-spacing: 1px;
