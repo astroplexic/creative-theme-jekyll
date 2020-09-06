@@ -217,7 +217,7 @@ header {
          .header-content-inner {
             font-weight: 500;
             font-family: 'Times New Roman', Times, serif;
-            color: #fff;
+            color: $theme-dark;
             margin-bottom:0px;
             max-width:auto;
             margin-left:auto;
@@ -230,11 +230,11 @@ header {
             h1 {
                 font-weight: 500;
                 font-family: 'Times New Roman', Times, serif;
-                color: #fff;
+                color: $theme-body-text-dark;
         }
             h2 {
-                font-weight: 200;
-                color: $theme-body-text-light;
+                font-weight: 180;
+                color: $theme-body-text-dark;
                 font-family: 'Geneva', Tahoma, sans-serif;
                 font-size: 13px;
                 font-style: italic;
@@ -256,14 +256,14 @@ header {
             h1 {
                 font-weight: 500;
                 font-family: 'Times New Roman', Times, serif;
-                color: #fff;
+                color: $theme-body-text-dark;
                }
             h2 {
                 font-weight: 300;
                 font-size: 23px; //large screen
-                color: #cacaca;
+                color: $theme-body-text-dark;
                 font-family: 'Geneva', Tahoma, sans-serif;
-                font-style: oblique;
+                font-style: italic;
                }    
             p {
                 max-width:100%;
