@@ -104,6 +104,7 @@ aside {
 
 .navbar-default {
     background-color: $theme-light-bg;
+    font-family: 'Geneva', sans-serif;
     opacity: 1;
     // filter: blur(1.0rem);
     // border-color: $theme-body-text-dark;
@@ -114,6 +115,7 @@ aside {
         @include sans-serif-font;
         font-weight: 600;
         text-transform: uppercase;
+        font-family:'Geneva', sans-serif;
         font-size: 30px;
         &:hover,
         &:focus {
@@ -157,7 +159,7 @@ aside {
             font-family: 'Geneva', sans-serif;
             color: $theme-primary;
             font-size: 30px; //static logo
-            font-weight: 180;
+            font-weight: 600;
             &:hover,
             &:focus {
                 color: $theme-dark;
