@@ -142,7 +142,7 @@ aside {
                     color:  $theme-main-link !important; //section highlight
                     background-color: transparent;
                     &:hover {
-                        background-color: #141414; //behind nav section on bg
+                        background-color: $theme-primary; //behind nav section on bg
                     }
                 }
             }
@@ -151,7 +151,7 @@ aside {
 
     // logo settings / big transparent
     @media (min-width: 600px) {
-        background-color: transparent;
+        background-color: $theme-primary;
         border-color: transparent;
         .navbar-header .navbar-brand {
             font-family: 'Geneva', sans-serif;
@@ -172,10 +172,11 @@ aside {
             }
         }
         &.affix {
-            background-color: none;
+            background-color: $theme-primary;
             opacity: 1; //scrolling fixed nav bar desktop transparency
             // filter: blur(1.0rem);
-            border-color: $theme-main-link;
+            border-color: none;
+            font-family: 'Geneva', sans-serif;
             .navbar-header .navbar-brand {
                 color: $theme-main-link;
                 font-size: 40px; //logo scroll down
@@ -188,9 +189,9 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-main-link; //default nav link color
+                color: $theme-dark; //default nav link color
                 &:hover {
-                    color: $theme-dark;
+                    color: $theme-main-link;
                 }
             }
         }
