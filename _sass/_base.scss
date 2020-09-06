@@ -105,18 +105,19 @@ aside {
 .navbar-default {
     background-color: $theme-light-bg;
     opacity: 0.80;
-    border-color: $theme-body-text-dark;
+    filter: blur(1.0rem);
+    //border-color: $theme-body-text-dark;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
         color: #ffffff;
         @include sans-serif-font;
-        font-weight: 250;
+        font-weight: 500;
         text-transform: uppercase;
         font-size: 30px;
         &:hover,
         &:focus {
-            color: $theme-link;
+            color: $dark;
         }
     }
 
@@ -132,7 +133,7 @@ aside {
                 color: $theme-main-link;
                // padding-right: 5px;
                 &:hover {
-                    color: $theme-link;
+                    color: $theme-dark;
                 }
             }
             &.active {
@@ -153,12 +154,12 @@ aside {
         background-color: transparent;
         border-color: transparent;
         .navbar-header .navbar-brand {
-            color: #000;
+            color: $theme-primary;
             font-size: 30px; //static logo
             font-weight: 180;
             &:hover,
             &:focus {
-                color: $theme-link;
+                color: $theme-dark;
                 font-weight: 200; //logo
             }
         }
@@ -166,12 +167,13 @@ aside {
         .nav > li > a:focus {
             color: $theme-main-link; //main nav color
             &:hover {
-                color: $theme-link;
+                color: $theme-dark;
             }
         }
         &.affix {
             background-color: $theme-light-bg;
             opacity: 0.8; //scrolling fixed nav bar desktop transparency
+            filter: blur(1.0rem);
             border-color: $theme-main-link;
             .navbar-header .navbar-brand {
                 color: $theme-main-link;
@@ -187,7 +189,7 @@ aside {
             .nav > li > a:focus {
                 color: $theme-main-link; //default nav link color
                 &:hover {
-                    color: $theme-link;
+                    color: $theme-dark;
                 }
             }
         }
