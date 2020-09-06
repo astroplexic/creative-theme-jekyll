@@ -106,7 +106,6 @@ aside {
     background-color: $theme-light-bg;
     font-family: 'Geneva', sans-serif;
     opacity: 1;
-    // filter: blur(1.0rem);
     // border-color: $theme-body-text-dark;
     @include transition-all;
     .navbar-header .navbar-brand {
