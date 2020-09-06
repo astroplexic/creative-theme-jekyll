@@ -112,7 +112,7 @@ aside {
     .navbar-header .navbar-brand {
         color: $theme-main-link;
         @include sans-serif-font;
-        font-weight: 500;
+        font-weight: 700;
         text-transform: uppercase;
         font-size: 30px;
         &:hover,
@@ -128,7 +128,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 text-align: left;
-                font-weight: 500;
+                font-weight:700;
                 font-size: 18px;
                 color: $theme-main-link;
                // padding-right: 5px;
@@ -215,8 +215,8 @@ header {
             margin: 0px;
             width: 100%;
          .header-content-inner {
-            font-weight: 500;
-            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: $theme-dark;
             margin-bottom:0px;
             max-width:auto;
@@ -229,7 +229,7 @@ header {
                 margin-right:auto;
             h1 {
                 font-weight: 500;
-                font-family: 'Times New Roman', Times, serif;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: $theme-body-text-dark;
         }
             h2 {
@@ -255,7 +255,7 @@ header {
             .header-content-inner {
             h1 {
                 font-weight: 500;
-                font-family: 'Times New Roman', Times, serif;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: $theme-body-text-dark;
                }
             h2 {
@@ -323,7 +323,7 @@ header {
     margin-top: 0px;
     margin-bottom: 4px;
     font-size: 40px;
-    font-weight: 400px;
+    font-weight: 500px;
     letter-spacing: -0.5px;
 }
 h2.section-heading
