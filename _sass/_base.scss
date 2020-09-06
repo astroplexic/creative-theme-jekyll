@@ -104,9 +104,9 @@ aside {
 
 .navbar-default {
     background-color: $theme-light-bg;
-    opacity: 0.80;
+    opacity: 0.95;
     // filter: blur(1.0rem);
-    / /border-color: $theme-body-text-dark;
+    // border-color: $theme-body-text-dark;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
