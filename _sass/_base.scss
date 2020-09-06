@@ -11,12 +11,12 @@ body {
 hr {
     border-color:$theme-main-link;
     border-width: 3px;
-    max-width: 100%;
+    max-width: 200px;
 
 }
 hr.accent {
     border-color: $theme-main-link;
-    max-width:100%;
+    max-width:200px;
     border-width: 5px;
 }
 
@@ -110,7 +110,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: #ffffff;
+        color: $theme-main-link;
         @include sans-serif-font;
         font-weight: 500;
         text-transform: uppercase;
@@ -233,11 +233,11 @@ header {
                 color: #fff;
         }
             h2 {
-                font-weight: 290;
+                font-weight: 200;
                 color: $theme-body-text-light;
                 font-family: 'Geneva', Tahoma, sans-serif;
                 font-size: 13px;
-                font-style: oblique;
+                font-style: italic;
         }
             hr {
                 margin:30px auto;
