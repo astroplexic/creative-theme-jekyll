@@ -5,6 +5,7 @@ body {
 }
 
 body {
+    font-family: "Geneva", sans-serif;
     @include sans-serif-font;
 }
 
@@ -74,12 +75,11 @@ p {
 }
 
 .bg-dark {
-    background-color: #222; //color
-    color: #fff;
+    background-color: $theme-dark; //color
 }
 
 .text-faded {
-    color: #fff; //portfolio description
+    color: $theme-body-text-dark; //portfolio description
 }
 
 .synopsis {
