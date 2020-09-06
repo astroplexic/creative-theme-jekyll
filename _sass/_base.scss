@@ -11,12 +11,12 @@ body {
 hr {
     border-color:$theme-main-link;
     border-width: 3px;
-    max-width: 250px;
+    max-width: 100%;
 
 }
 hr.accent {
     border-color: $theme-main-link;
-    max-width:400px;
+    max-width:100%;
     border-width: 5px;
 }
 
@@ -105,8 +105,8 @@ aside {
 .navbar-default {
     background-color: $theme-light-bg;
     opacity: 0.80;
-    filter: blur(1.0rem);
-    //border-color: $theme-body-text-dark;
+    // filter: blur(1.0rem);
+    / /border-color: $theme-body-text-dark;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -172,8 +172,8 @@ aside {
         }
         &.affix {
             background-color: $theme-light-bg;
-            opacity: 0.8; //scrolling fixed nav bar desktop transparency
-            filter: blur(1.0rem);
+            opacity: 0.95; //scrolling fixed nav bar desktop transparency
+            // filter: blur(1.0rem);
             border-color: $theme-main-link;
             .navbar-header .navbar-brand {
                 color: $theme-main-link;
